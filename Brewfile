@@ -23,6 +23,7 @@ cask 'shiftit' #画面分割するやつ
 cask 'scroll-reverser'
 cask 'clipy'
 cask 'wireshark'
+cask 'android-platform-tools'
 cask 'adobe-creative-cloud'
 cask 'docker'
 cask 'termius'
@@ -44,3 +45,4 @@ mas 'LINE', id: 539883307
 mas 'CotEditor', id: 1024640650
 mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'WinArchiver Lite', id: 414855915
+mas 'Display Menu', id: 549083868
