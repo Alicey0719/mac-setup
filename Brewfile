@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 
+bre 'mas'
 brew 'git'
 brew 'python@3.9'
 brew 'go'
@@ -33,3 +34,11 @@ cask 'vlc'
 cask 'discord'
 # cask 'slack'
 # cask 'coteditor'
+
+## mas(must AppleID)
+mas 'RunCat', id: 1429033973
+mas 'Slack for Desktop', id: 803453959
+mas 'LINE', id: 539883307
+mas 'CotEditor', id: 1024640650
+mas 'Microsoft Remote Desktop', id: 1295203466
+mas 'WinArchiver Lite', id: 414855915
