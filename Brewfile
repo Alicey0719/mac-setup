@@ -1,6 +1,6 @@
 cask_args appdir: "/Applications"
 
-bre 'mas'
+brew 'mas'
 brew 'git'
 brew 'python@3.9'
 brew 'go'
