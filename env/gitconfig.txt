@@ -1,2 +1,7 @@
 [init]
 	defaultBranch = main
+[user]
+    name  = Alicey
+    email = sirius@alicey.dev
+[color]
+    ui = true

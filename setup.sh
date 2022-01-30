@@ -23,3 +23,4 @@ CURRENT=$(cd $(dirname $0);pwd)
     chsh -s $(which fish) && \
     bash $CURRENT/env/envinstall.sh
 
+git config --global credential.helper osxkeychain
