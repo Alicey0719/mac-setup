@@ -22,6 +22,3 @@ CURRENT=$(cd $(dirname $0);pwd)
     which fish | sudo tee -a /etc/shells && \
     chsh -s $(which fish) && \
     bash $CURRENT/env/envinstall.sh
-
-
-git config --global credential.helper osxkeychain

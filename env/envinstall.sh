@@ -5,6 +5,7 @@ CURRENT=$(cd $(dirname $0);pwd)
 
 ## git
 cp $CURRENT/gitconfig.txt ~/.gitconfig
+git config --global credential.helper osxkeychain
 
 ## fish
 mkdir -p ~/.config/fish/completions
