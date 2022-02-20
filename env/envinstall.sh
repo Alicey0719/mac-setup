@@ -20,3 +20,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH && \
     set -x PATH $HOME/.nodebrew/current/bin $PATH && \
     nodebrew install-binary stable && \
     nodebrew use stable
+
+## mtr
+ln /usr/local/Cellar/mtr/0.94/sbin/mtr /usr/local/bin/mtr
+ln /usr/local/Cellar/mtr/0.94/sbin/mtr-packet /usr/local/bin/mtr-packet
