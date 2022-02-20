@@ -6,6 +6,12 @@ CURRENT=$(cd $(dirname $0);pwd)
 ## git
 cp $CURRENT/gitconfig.txt ~/.gitconfig
 
+## node
+export PATH=$HOME/.nodebrew/current/bin:$PATH && \
+    source ~/.bashrc && \
+    nodebrew install-binary stable && \
+    nodebrew use stable
+
 ## fish
 mkdir -p ~/.config/fish/completions
 cp $CURRENT/config.fish.txt ~/.config/fish/config.fish
