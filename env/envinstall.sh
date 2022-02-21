@@ -25,3 +25,6 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH && \
 ## mtr
 ln /usr/local/Cellar/mtr/0.94/sbin/mtr /usr/local/bin/mtr
 ln /usr/local/Cellar/mtr/0.94/sbin/mtr-packet /usr/local/bin/mtr-packet
+
+## mouse acceleration
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
