@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # rm localized
-rm /Applications/.localized
+sudo rm /Applications/.localized
 rm ~/Applications/.localized
 rm ~/Documents/.localized
 rm ~/Downloads/.localized
