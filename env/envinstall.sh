@@ -16,6 +16,7 @@ ln -s ~/.config/fish/fish-kubectl-completions/completions/kubectl.fish completio
 cd -
 
 ## node
+mkdir -p ~/.nodebrew/src
 export PATH=$HOME/.nodebrew/current/bin:$PATH && \
     source ~/.bashrc && \
     set -x PATH $HOME/.nodebrew/current/bin $PATH && \
