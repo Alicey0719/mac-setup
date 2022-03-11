@@ -31,6 +31,7 @@ cask 'adobe-creative-cloud'
 cask 'docker'
 cask 'termius'
 cask 'visual-studio-code'
+# cask 'intellij-idea'
 cask 'google-chrome'
 cask 'google-japanese-ime'
 cask 'google-drive'
@@ -38,6 +39,8 @@ cask 'firefox'
 cask 'zoom'
 cask 'vlc'
 cask 'discord'
+cask 'obs'
+# cask 'microsoft-office'
 # cask 'slack'
 # cask 'coteditor'
 
@@ -48,4 +51,6 @@ mas 'LINE', id: 539883307
 mas 'CotEditor', id: 1024640650
 mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'WinArchiver Lite', id: 414855915
+mas 'Bitwarden', id: 1352778147
 mas 'Display Menu', id: 549083868
+mas 'Kindle', id: 405399194
