@@ -7,6 +7,10 @@ CURRENT=$(cd $(dirname $0);pwd)
 cp $CURRENT/gitconfig.txt ~/.gitconfig
 git config --global credential.helper osxkeychain
 
+## bash
+touch ~/.bashrc && \
+    bash -c "source ~/.bashrc"
+
 ## fish
 mkdir -p ~/.config/fish/completions
 cp $CURRENT/config.fish.txt ~/.config/fish/config.fish
@@ -18,7 +22,7 @@ cd -
 ## node
 mkdir -p ~/.nodebrew/src
 export PATH=$HOME/.nodebrew/current/bin:$PATH && \
-    source ~/.bashrc && \
+    bash -c "source ~/.bashrc" && \
     set -x PATH $HOME/.nodebrew/current/bin $PATH && \
     nodebrew install-binary stable && \
     nodebrew use stable
