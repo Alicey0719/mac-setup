@@ -54,3 +54,10 @@ mas 'WinArchiver Lite', id: 414855915
 mas 'Bitwarden', id: 1352778147
 mas 'Display Menu', id: 549083868
 mas 'Kindle', id: 405399194
+
+## mas(must ID) Paid apps
+mas 'Final Cut Pro', 424389933
+mas 'Logic Pro', 634148309
+mas 'Motion', 434290957
+mas 'MainStage', 634159523
+mas 'Compressor', 424390742
