@@ -9,4 +9,5 @@ CURRENT=$(cd $(dirname $0);pwd)
     brew bundle && \
     which fish | sudo tee -a /etc/shells && \
     chsh -s $(which fish) && \
-    bash $CURRENT/env/envinstall.sh
+    bash $CURRENT/env/envinstall.sh && \
+    bash $CURRENT/env/mac.sh
