@@ -1,5 +1,5 @@
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [user]
     name  = Alicey
     email = sirius@alicey.dev
