@@ -11,27 +11,27 @@ fi
 # nvram
 # ======== ======== ========
 
-sudo nvram AutoBoot=%00   # disable auto boot (when opening display).
+# sudo nvram AutoBoot=%00   # disable auto boot (when opening display).
 
 
 # ======== ======== ========
 # os
 # ======== ======== ========
 
-defaults write -g NSInitialToolTipDelay -integer 0   # set time 0 for display toolchip
-defaults write -g NSWindowResizeTime 0.1   # set firster time for display dialogue
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true   # display all .extension
-# defaults write NSGlobalDomain AppleShowScrollBars -string "Always"   # display scrol bar always
-defaults write NSGlobalDomain NSWindowResizeTime -float 0.001   # set firster time for changing window size on console application
+# defaults write -g NSInitialToolTipDelay -integer 0   # set time 0 for display toolchip
+# defaults write -g NSWindowResizeTime 0.1   # set firster time for display dialogue
+# defaults write NSGlobalDomain AppleShowAllExtensions -bool true   # display all .extension
+# # defaults write NSGlobalDomain AppleShowScrollBars -string "Always"   # display scrol bar always
+# defaults write NSGlobalDomain NSWindowResizeTime -float 0.001   # set firster time for changing window size on console application
 
 
 # ======== ======== ========
 # Bluetooth audio agent
 # ======== ======== ========
 
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" -int 96   # set max bitpool value on Bluetooth audio agent
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 48   # set min bitpool value on Bluetooth audio agent, default is too low... 2..
-defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" -int 64   # set initial bitpool value on Bluetooth audio agent
+# defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Max (editable)" -int 96   # set max bitpool value on Bluetooth audio agent
+# defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 48   # set min bitpool value on Bluetooth audio agent, default is too low... 2..
+# defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" -int 64   # set initial bitpool value on Bluetooth audio agent
 
 # ======== ======== ========
 # mouse acceleration
@@ -107,7 +107,7 @@ defaults write com.apple.NetworkBrowser ShowThisComputer -bool true   # show thi
 # terminal
 # ======== ======== ========
 
-defaults write com.apple.terminal StringEncodings -array 4   # use only UTF-8
+# defaults write com.apple.terminal StringEncodings -array 4   # use only UTF-8
 
 
 # ======== ======== ========
@@ -116,14 +116,14 @@ defaults write com.apple.terminal StringEncodings -array 4   # use only UTF-8
 
 # defaults write com.apple.dock persistent-apps -array #Dock内容すべて削除
 
-defaults write com.apple.dock mineffect suck   # enable effect "Suck" Def genie or scale
+# defaults write com.apple.dock mineffect suck   # enable effect "Suck" Def genie or scale
 # defaults write com.apple.dock contents-immutable -bool true   # Dockに追加を拒否
 # defaults write com.apple.dock size-immutable -bool true   # disable changing dock size
 # defaults write com.apple.dock magnify-immutable -bool true   # disable changing icon size
 # defaults write com.apple.dock position-immutable -bool true   # disable changing position
 # defaults write com.apple.dock mineffect-immutable -bool true   # disable changing effect
 # defaults write com.apple.dock autohide-immutable -bool true   # disable changing option "auto-hide"
-defaults write com.apple.dock autohide-delay -float 0    # set delay 0 show dock
+# defaults write com.apple.dock autohide-delay -float 0    # set delay 0 show dock
 
 
 # ======== ======== ========
@@ -145,26 +145,26 @@ defaults write com.apple.dock autohide-delay -float 0    # set delay 0 show dock
 # ======== ======== ========
 
 defaults write com.apple.screencapture disable-shadow -bool true   # disable shadow
-defaults write com.apple.screencapture type -string "png"    # set png
+# defaults write com.apple.screencapture type -string "png"    # set png
 
 
 # ======== ======== ========
 # Safari
 # ======== ======== ========
 
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true   # enable development & debug menu
-defaults write com.apple.Safari IncludeDevelopMenu -bool true   # enable development & debug menu
-defaults write com.apple.Safari IncludeInternalDebugMenu -bool true   # enable development & debug menu
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true   # enable development & debug menu
+# defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true   # enable development & debug menu
+# defaults write com.apple.Safari IncludeDevelopMenu -bool true   # enable development & debug menu
+# defaults write com.apple.Safari IncludeInternalDebugMenu -bool true   # enable development & debug menu
+# defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true   # enable development & debug menu
 
-defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true   # show complete URL
-defaults write com.apple.Safari ShowStatusBar -bool true   # show status bar
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true   # disable send searching query to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false   # disable send searching query to Apple
+# defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true   # show complete URL
+# defaults write com.apple.Safari ShowStatusBar -bool true   # show status bar
+# defaults write com.apple.Safari SuppressSearchSuggestions -bool true   # disable send searching query to Apple
+# defaults write com.apple.Safari UniversalSearchEnabled -bool false   # disable send searching query to Apple
 
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false   # disable auto open when downloading
+# defaults write com.apple.Safari AutoOpenSafeDownloads -bool false   # disable auto open when downloading
 
-defaults write NSGlobalDomain WebKitDeveloperExtras -bool true   # add web inspector
+# defaults write NSGlobalDomain WebKitDeveloperExtras -bool true   # add web inspector
 
 
 # ======== ======== ========
