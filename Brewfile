@@ -56,8 +56,8 @@ mas 'Kindle', id: 405399194
 mas 'WireGuard', id: 1451685025
 
 ## mas(must ID) Paid apps
-mas 'Final Cut Pro', 424389933
-mas 'Logic Pro', 634148309
-mas 'Motion', 434290957
-mas 'MainStage', 634159523
-mas 'Compressor', 424390742
+mas 'Final Cut Pro', id: 424389933
+mas 'Logic Pro', id: 634148309
+mas 'Motion', id: 434290957
+mas 'MainStage', id: 634159523
+mas 'Compressor', id: 424390742
